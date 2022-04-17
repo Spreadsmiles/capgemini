@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <title>Document</title>
+    <script>
+
+    function validateForm() {   
+    let x = document.forms["sp"]["email"].value;
+    if (x == "") {
+      alert("email must be filled out");
+      return false;
+    }
+  }
+    </script>
+</head>
+<body>
+    <h1>SP YADAV</h1>
+
+    
+<div class="myform">
+
+    <form name="sp">
+        <label for="email">First name:</label><br>
+        <input type="id" id="email"  placeholder="email" name="email"><br>
+        <label for="password">Last name:</label><br>
+        <input type="password"  placeholder="password" id="password" name="password">
+        <input type="submit" value="Submit">
+    </form>
+
+</form>
+
+<label for="language"> choose language </label>
+<select name="language" id="language" :>
+<option>java</option>
+<option>javaScript</option>
+<option>c++</option>
+<option>paython</option>
+</select>
+
+</div>
+</body>
+<script src="ja.js" ></script>
+</html>
